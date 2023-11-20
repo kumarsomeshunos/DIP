@@ -232,7 +232,7 @@ class App:
     def GButton_514_command(self):
         file_path = filedialog.askopenfilename(title="Select Image")
         original_image = Image.open(file_path)
-        save_path = "/Users/somesh/Documents/Sem V/DIP/Project/EdiImg/copied_image.png"
+        save_path = "/Users/somesh/Documents/Sem V/DIP/Project/DIP/EdiImg/copied_image.png"
         original_image.save(save_path)
         new_width = 300
         new_height = 400
